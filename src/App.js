@@ -4,7 +4,7 @@ import Routes from "./Routes";
 function App() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://615d43db12571a00172074e7.mockapi.io/use")
+    fetch("https://616f779f715a630017b39c8c.mockapi.io/asdfas")
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);

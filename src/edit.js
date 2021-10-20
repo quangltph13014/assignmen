@@ -8,7 +8,7 @@ export default function Edit(props) {
   const { register, handleSubmit, reset } = useForm();
   const [product, setProduct] = useState({});
   useEffect(() => {
-    fetch("https://615d43db12571a00172074e7.mockapi.io/use/" + id)
+    fetch("https://616f779f715a630017b39c8c.mockapi.io/asdfas" + id)
       .then((response) => response.json())
       .then((data) => {
         setProduct(data);
@@ -16,7 +16,7 @@ export default function Edit(props) {
       });
   }, [reset]);
   const onSubmit = (data) => {
-    fetch("https://615d43db12571a00172074e7.mockapi.io/use/" + id, {
+    fetch("https://616f779f715a630017b39c8c.mockapi.io/asdfas" + id, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

@@ -10,7 +10,7 @@ export default function Add(props) {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    fetch("https://615d43db12571a00172074e7.mockapi.io/use", {
+    fetch("https://616f779f715a630017b39c8c.mockapi.io/asdfas", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
   return (
     <img
-      src="https://sohanews.sohacdn.com/thumb_w/660/160588918557773824/2021/5/26/photo1621963507381-162196350749198229939.png"
+      src="https://anhnendep.net/wp-content/uploads/2018/12/hinh-anh-nen-trung-quoc-dep-cho-may-tinh-2.jpg"
       className="img-responsive"
       style={{ width: 1300}, {height : 800}}
      

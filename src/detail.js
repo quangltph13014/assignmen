@@ -6,7 +6,7 @@ export default function Detail() {
   const { id } = useParams();
   const [product, setProduct] = useState({});
   useEffect(() => {
-    fetch("https://615d43db12571a00172074e7.mockapi.io/use/" + id)
+    fetch("https://616f779f715a630017b39c8c.mockapi.io/asdfas" + id)
       .then((response) => response.json())
       .then((data) => {
         setProduct(data);
